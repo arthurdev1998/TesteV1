@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Teste.infraestructure.Configurations.Pessoa;
+using Teste.infraestructure.Configurations.Users;
 
 namespace Teste.infraestructure.Data;
 
@@ -9,5 +9,5 @@ public class AppDbContext : DbContext
     {
     }
 
-    public DbSet<Pessoa> Pessoas { get; set; }
+    public DbSet<User> Users { get; set; }
 }

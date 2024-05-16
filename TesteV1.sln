@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.Services", "Teste.Services\Teste.Services.csproj", "{9A7FCD5A-6C95-4808-B347-655E4E9EBF77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Services", "Teste.Services\Teste.Services.csproj", "{9A7FCD5A-6C95-4808-B347-655E4E9EBF77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.Common", "Teste.Common\Teste.Common.csproj", "{8DDA53CD-8D44-413D-B630-B8B46F00A3E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Common", "Teste.Common\Teste.Common.csproj", "{8DDA53CD-8D44-413D-B630-B8B46F00A3E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.infraestructure", "Teste.infraestructure\Teste.infraestructure.csproj", "{E2651021-ED00-4E7E-811E-9304F76365F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.infraestructure", "Teste.infraestructure\Teste.infraestructure.csproj", "{E2651021-ED00-4E7E-811E-9304F76365F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{EFAC32CF-49DD-4006-9546-BE5E9424266C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTestes", "ApiTestes\ApiTestes.csproj", "{8BC0187D-24DE-4381-8319-4503456C662D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTestes", "ApiTestes\ApiTestes.csproj", "{8BC0187D-24DE-4381-8319-4503456C662D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteCrud.Api", "TesteCrud.Api\TesteCrud.Api.csproj", "{94C2A847-EBC3-4D95-8891-7B67894DBA3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{8BC0187D-24DE-4381-8319-4503456C662D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC0187D-24DE-4381-8319-4503456C662D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC0187D-24DE-4381-8319-4503456C662D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C2A847-EBC3-4D95-8891-7B67894DBA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C2A847-EBC3-4D95-8891-7B67894DBA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C2A847-EBC3-4D95-8891-7B67894DBA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C2A847-EBC3-4D95-8891-7B67894DBA3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
